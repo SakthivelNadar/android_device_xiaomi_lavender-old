@@ -373,7 +373,8 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     init.target.rc \
     ueventd.qcom.rc \
-    fstab.qcom
+    fstab.qcom \
+    init.safailnet.rc
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \

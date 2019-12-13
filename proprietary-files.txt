@@ -65,13 +65,6 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|fbf078c47a2a67be329e8390c988255dd578949c
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|f48d221f6678ff39bdb3e667c6e1a0f399c29232
 
-# ANT+ - from LA.UM.8.2.r1-06700-sdm660.0
--lib/libantradio.so:system_ext/lib/libantradio.so|37c36369eeab19d5e6266d9d25ae0de9bb59502d
--lib64/libantradio.so:system_ext/lib64/libantradio.so|43f6105678c082216f1606d8dd43fa1b0b753d7e
-product/lib64/com.qualcomm.qti.ant@1.0.so:system_ext/lib64/com.qualcomm.qti.ant@1.0.so|f40868ad57012f1a512b14c889bc8380652cc50f
-vendor/lib64/com.qualcomm.qti.ant@1.0.so|5ef111c6ecb35b94233ae694d80161e9f61b7cd6
-vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so|203528c568c1c5ce33b35dcb9ee9eb7ecb1de206
-
 # Audio - from lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys
 vendor/firmware/dbmd4_va_fw.bin|ee640f9f4e367d513f5fb7d95c85e226c9f75750
 vendor/firmware/tfa98xx.cnt|f8b5291feaebe7e3d18fda5d8960c313656b4a3a

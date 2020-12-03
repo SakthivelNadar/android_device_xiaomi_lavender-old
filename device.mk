@@ -28,7 +28,10 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 BOOT_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += device/xiaomi/lavender
+PRODUCT_SOONG_NAMESPACES += \
+    device/xiaomi/lavender \
+    hardware/google/interfaces \
+    hardware/google/pixel
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal

@@ -113,7 +113,8 @@ PRODUCT_PACKAGES += \
     libhdmiedid \
     libhfp \
     libldacBT_dec \
-    vendor.qti.hardware.bluetooth_audio@2.0.vendor
+    vendor.qti.hardware.bluetooth_audio@2.0.vendor \
+    android.hardware.bluetooth@1.0.vendor
 
 # Sensor HAL conf file
 PRODUCT_COPY_FILES += \
@@ -160,7 +161,8 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.system \
     libtinyxml \
-    vendor.display.config@1.9
+    vendor.display.config@1.9 \
+    android.frameworks.displayservice@1.0.vendor \
 
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
@@ -175,7 +177,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
     android.hardware.drm@1.0-service \
-    android.hardware.drm@1.3-service.clearkey
+    android.hardware.drm@1.3-service.clearkey \
+    android.hardware.drm@1.0.vendor \
+    android.hardware.drm@1.1.vendor \
+    android.hardware.drm@1.2.vendor \
+    android.hardware.drm@1.3.vendor
 
 # Exclude TOF sensor from InputManager
 PRODUCT_COPY_FILES += \
@@ -376,7 +382,22 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0 \
     librmnetctl \
     libprotobuf-cpp-full \
-    rild
+    rild \
+    android.hardware.secure_element@1.2 \
+    android.hardware.secure_element@1.2.vendor \
+    android.system.net.netd@1.1.vendor \
+    android.hardware.radio@1.5.vendor \
+    android.hardware.radio@1.4.vendor \
+    android.hardware.radio.config@1.2 \
+    android.hardware.radio.config@1.2.vendor \
+    android.hardware.secure_element@1.2.vendor \
+    android.hardware.secure_element@1.1.vendor \
+    android.hardware.secure_element@1.0.vendor \
+
+# Neural Networks
+PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.2 \
+    android.hardware.neuralnetworks@1.2.vendor
 
 # AOT Preload
 PRODUCT_DEXPREOPT_SPEED_APPS += \
@@ -411,8 +432,15 @@ PRODUCT_PACKAGES += \
 
 # Keymaster
 PRODUCT_PACKAGES += \
+    android.hardware.keymaster@3.0-impl \
+    android.hardware.keymaster@3.0-service \
     android.hardware.keymaster@4.0-impl \
-    android.hardware.keymaster@4.0-service
+    android.hardware.keymaster@4.0-service \
+    android.hardware.keymaster@3.0.vendor \
+    android.hardware.keymaster@4.0.vendor \
+    android.hardware.keymaster@4.1.vendor \
+    android.hardware.gatekeeper@1.0 \
+    android.hardware.gatekeeper@1.0.vendor
 
 # USB
 PRODUCT_PACKAGES += \

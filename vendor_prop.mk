@@ -187,6 +187,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so
 
+# SOC
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.soc.manufacturer=Qualcomm \
+    ro.soc.model=SDM660
+
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.backup.ntpServer=0.pool.ntp.org \

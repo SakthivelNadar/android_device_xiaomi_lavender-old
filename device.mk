@@ -406,7 +406,8 @@ PRODUCT_BOOT_JARS += \
 
 # Touchscreen
 PRODUCT_PACKAGES += \
-    libtinyxml2
+    libtinyxml2 \
+    libtinyxml
 
 # Keymaster
 PRODUCT_PACKAGES += \

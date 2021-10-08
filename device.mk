@@ -408,6 +408,11 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     libtinyxml2
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.0-impl \
+    android.hardware.keymaster@4.0-service
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service

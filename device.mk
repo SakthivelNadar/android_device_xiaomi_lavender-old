@@ -242,9 +242,9 @@ PRODUCT_PACKAGES += \
     libhwbinder.vendor
 
 # IMS
-PRODUCT_PACKAGES += \
-   ims-ext-common \
-   ims_ext_common.xml
+#PRODUCT_PACKAGES += \
+#   ims-ext-common \
+#   ims_ext_common.xml
 
 # Radio
 PRODUCT_PACKAGES += \

@@ -171,7 +171,9 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     vendor.display.config@1.9 \
     android.frameworks.displayservice@1.0.vendor \
-    libtinyxml.vendor
+    libtinyxml.vendor \
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0.vendor
 
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \

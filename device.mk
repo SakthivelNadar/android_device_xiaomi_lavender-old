@@ -23,6 +23,11 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_BOARD_PLATFORM := sdm660
 PRODUCT_USES_QCOM_HARDWARE := true
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/google/interfaces \
+    hardware/google/pixel
+
 # RRO configuration
 PRODUCT_ENFORCE_RRO_TARGETS := *
 

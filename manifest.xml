@@ -311,4 +311,9 @@
         <transport>hwbinder</transport>
         <fqname>@2.1::IRTPService/imsrtpservice</fqname>
     </hal>
+    <hal format="hidl">
+        <name>android.hardware.biometrics.fingerprint</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.1::IBiometricsFingerprint/default</fqname>
+    </hal>
 </manifest>

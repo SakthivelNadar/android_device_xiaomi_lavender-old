@@ -168,7 +168,6 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     libqdMetaData \
     libqdMetaData.vendor \
-    libtinyxml \
     vendor.display.config@1.9 \
     android.frameworks.displayservice@1.0.vendor \
     libtinyxml.vendor \
@@ -392,7 +391,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.deprecated@1.0 \
     android.hardware.radio.deprecated@1.0.vendor \
     android.hardware.secure_element@1.0 \
-    librmnetctl \
     libprotobuf-cpp-full \
     rild \
     android.hardware.secure_element@1.2 \
@@ -438,8 +436,7 @@ PRODUCT_BOOT_JARS += \
 
 # Touchscreen
 PRODUCT_PACKAGES += \
-    libtinyxml2 \
-    libtinyxml
+    libtinyxml2 
 
 # Keymaster
 PRODUCT_PACKAGES += \

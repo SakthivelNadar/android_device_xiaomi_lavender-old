@@ -79,6 +79,10 @@ vendor/firmware/dbmd4_va_fw.bin|ee640f9f4e367d513f5fb7d95c85e226c9f75750
 vendor/firmware/tfa98xx.cnt|f8b5291feaebe7e3d18fda5d8960c313656b4a3a
 vendor/firmware/voice_amodel.bin|f0485f84718886ebcba6f2be0eb92f18240b5115
 
+# Audio - from lavender-user-10-QKQ1.190910.002-V12.5.1.0.QFGMIXM-release-keys
+vendor/lib/hw/sound_trigger.primary.sdm660.so
+vendor/lib64/hw/sound_trigger.primary.sdm660.so
+ 
 # Audio - from LA.UM.8.2.r1-06700-sdm660.0
 etc/permissions/audiosphere.xml|3c6d8f14bd99e52a424282fd5d0a5b9b06485dea
 framework/audiosphere.jar|c1679f5aca56f0cb24745b3f7d219acd04833bed

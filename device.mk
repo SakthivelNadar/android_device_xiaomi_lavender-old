@@ -18,7 +18,7 @@ TARGET_SCREEN_WIDTH := 1080
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-weeb
+    $(LOCAL_PATH)/overlay-potato
 
 # Display Device Config
 PRODUCT_COPY_FILES += \
@@ -34,6 +34,9 @@ BOOT_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 PRODUCT_SOONG_NAMESPACES += device/xiaomi/lavender \
                             hardware/google/interfaces \
                             hardware/google/pixel
+# Soong - HALs
+PRODUCT_BOARD_PLATFORM := sdm660
+PRODUCT_USES_QCOM_HARDWARE := true
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
